@@ -1,0 +1,261 @@
+html{
+    scroll-behavior: smooth;
+}
+.body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+
+}
+
+.bg {
+    background-color: #0c0c0d;
+}
+
+.nav {
+    height: 15%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    will-change: transform;
+    transition: transform 200ms linear;
+    position: fixed;
+    margin-top: -6%;
+}
+
+
+.nav ul {
+
+    display: flex;
+    list-style: none;
+    margin-left: 35%;
+    justify-content: center;
+}
+
+.nav li {
+
+    padding: 20%;
+    text-decoration: none;
+
+}
+
+ul li a {
+    font-weight: normal;
+    text-decoration: none !important;
+    transition: all 0.4s ease;
+    color: aliceblue;
+}
+
+a:hover {
+    color: #ffc200 !important;
+
+}
+
+img {
+    vertical-align: middle;
+    height: auto;
+    max-width: 34%;
+    margin: 10%;
+    margin-left: 58%;
+}
+
+h7 {
+    color: aliceblue;
+    font-size: 40px;
+    margin-left: 6%;
+}
+
+.row {
+    font-size: 15px;
+    color: aliceblue;
+    margin-top: -32%;
+    margin-left: 6%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.custom-btn {
+    background-color: aliceblue;
+    color: rgb(103, 98, 98);
+    font-weight: bold;
+    text-decoration: none !important;
+    border-radius: 50px;
+    width: 20%;
+    padding: 1%;
+    font-size: 19px;
+    line-height: normal;
+    overflow: hidden;
+    text-align: center;
+    word-spacing: 2;
+    margin-left: 6%;
+
+}
+.custom-btn a {
+    text-decoration: none;
+    color: grey;
+}
+
+.yr {
+    background: #474559;
+    border-radius: 100%;
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    margin-left: 1%;
+}
+
+.info {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 432px;
+    margin-left: 10%;
+}
+
+.info small {
+    color: #474559;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #5b5b5b;
+}
+
+.form {
+    background: transparent;
+    display: block;
+    width: 90%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid #ced4da;
+    margin: 3%;
+    margin-left: 7%;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+textarea .form {
+    height: 20%;
+}
+
+.submit-btn {
+    height: 10%;
+    width: 27%;
+    margin-left: 40%;
+    background: #ffc200;
+    border-radius: 50px;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.4s ease;
+
+}
+
+.submit-btn:hover {
+    background-color: #5b5b5b;
+}
+h1{
+    color: aliceblue;
+    margin-left: 5%;
+    font-size: 40px;
+}
+.skill h2{
+    margin: 2%;
+    margin-left: 13%;
+    color: aliceblue;
+}
+.skill{
+    width: 500px;
+    margin: 10%;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+}
+ li{
+    text-decoration: none !important;
+    margin: 20px 0;
+    padding: 10px;
+   
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+    transition: all 1s cubic-bezier(.25,.8,.25,1);
+}
+.bar :hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg,rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
+}
+.html{
+    width: 90%;
+    animation: html 10s;
+}
+.css{
+    width: 70%;
+    animation: css 10s;
+}
+.python{
+    width: 75%;
+    animation: python 10s;
+}
+.net{
+    width: 50%;
+    animation: net 10s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes net{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+ul{
+    text-decoration: none !important;
+}
